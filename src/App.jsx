@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './Card';
+import VideoEmbed from './VideoEmbed';
 
   function App() {
   const item1 = {
@@ -78,5 +79,12 @@ const item4 = {
     </>
   )
 }
+
+<div className='videoEmbed'>
+  {
+    <VideoEmbed/>
+  }
+  
+</div>
 
 export default App
