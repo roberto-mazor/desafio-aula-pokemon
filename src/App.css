@@ -7,13 +7,13 @@ body {
 }
 
 .card {
-  color: white; /*define a cor*/
+  color: black; /*define a cor*/
   font-family: sans-serif; /*define a fonte*/
   border: 1px solid black; /*Borda branca pequena*/
   border-radius: 10px; /* define o quanto a borda irá ser redonda*/
   text-align: center; /* alinha o texto no centro*/
   width: 20%; /* largura*/
-  margin: 0 auto; /* margin 0 pra cima e pra baixo e auto pra esquerda e pra direita, isso faz a div ficar centralizada*/
+  margin: 15 auto; /* margin 0 pra cima e pra baixo e auto pra esquerda e pra direita, isso faz a div ficar centralizada*/
   padding: 10px; /* espaço interno*/
   box-shadow: 5px 6px 0 black; /*sombra da caixa*/
 }
@@ -26,4 +26,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7rem;
  }
